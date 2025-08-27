@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #fdfdfc;
+  color: #2e2e2e;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  background: #2e7d32; /* green theme */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.tool-container {
+  padding: 1rem;
+}
